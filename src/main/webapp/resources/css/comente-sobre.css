@@ -1,0 +1,54 @@
+/* 
+    Document   : comente-sobre
+    Created on : 05/01/2013, 14:18:40
+    Author     : matheus
+    Description:
+        Folha de estilo do projeto comente-sobre.
+*/
+
+body {
+    margin: 0px;
+}
+
+#mensagem {
+    color: tomato;
+}
+
+.campo {
+    border: 3px black solid;
+    font-size: 14px;
+}
+
+#titulo {
+    font-size: 24px;
+}
+
+.botao {
+    font-size: 24px;
+    vertical-align: top;
+}
+
+label.error {
+    float: none;
+    color: red;
+    display: block;
+}
+
+blockquote {
+    border: 3px dashed #ccc;
+}
+
+.alinhamento {
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.rodape {
+    background-color: #ccc;
+    position: absolute;
+    text-align: right;
+    bottom: 0px;
+    width: 100%;
+}
